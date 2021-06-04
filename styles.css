@@ -8,6 +8,45 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+h1,
+h2,
+h3,
+h4 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 60px;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44px;
+    color: #B88987;
+}
+
+h3 {
+    font-size: 30px;
+    color: #B88987;
+    font-weight: 400;
+    line-height: 44px;
+}
+
+h4 {
+    font-size: 20px;
+    color: #B88987;
+    font-weight: 400;
+    line-height: 29px;
+}
+
+.container {
+    max-width: 1336px;
+    margin: auto;
+}
+
 .main-section{
     height: 100vh;
 }
@@ -123,7 +162,7 @@ button, input[type=submit], .button {
     padding: 11px 45px;
     background-color: #E6E1D6;
     position: absolute;
-    border: 1px solid #E6E1D6;
+    border: 2px solid #E6E1D6;
     bottom: 30px;
     left: 30px;
     cursor: pointer;
@@ -140,4 +179,71 @@ button, input[type=submit], .button {
     line-height: 20px;
     text-decoration: none;
     color: #000;
+}
+
+.description-section {
+    height: 100%;
+    background-color: #E6E1D6;
+    padding: 200px 175px 217px;
+    text-align: center;
+}
+
+.description-section h1 {
+    margin-bottom: 44px;
+}
+
+.description-section p{
+    font-size: 18px;
+    max-width: 1090px;
+    margin: auto;
+    line-height: 25px;
+}
+
+.products-section {
+    background-color: #fff;
+    padding: 90px 0;
+}
+
+.products-section h4 {
+    margin-bottom: 25px;
+}
+
+.products-list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.products-list .product-item {
+    max-width: 428px;
+    width: 33%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.products-list .product-item__img {
+    width: 100%;
+    height: 100%;
+    max-height: 285px;
+}
+
+.products-list .product-item__img img {
+    height: 100%;
+}
+
+.products-list .product-item__description {
+    line-height: 30px;
+}
+
+.products-list .product-item__description-name {
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.products-list .product-item__description-price {
+    font-size: 12px;
+}
+
+.products-list .product-item__description-review {
+    font-size: 11px;
 }
