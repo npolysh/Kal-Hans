@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-section{
+    height: 100vh;
+}
+
+.announcement {
+    text-align: center;
+    position: relative;
+    color: #B88987;
+    padding: 1em;
+    background-color: #fff;
+}
+
+header {
+    background-color: #E6E1D6;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 20px 30px;
+    min-height: 75px;
+}
+
+.menu {
+    display: inline-block;
+    position: relative;
+    width: 30px;
+    height: 30px;
+}
+
+.menu-icon__bar {
+    position: absolute;
+    left: 3px;
+    width: 23px;
+    height: 2px;
+    background-color: #fff;
+}
+
+.menu-icon__bar1 {
+    top: 6px;
+}
+.menu-icon__bar2 {
+    top: 13px;
+}
+.menu-icon__bar3 {
+    top: 20px;
+}
+
+.logo img {
+    width: 200px;
+}
+
+.search-box {
+    position: absolute;
+    top: 30px;
+    right: 100px;
+    min-width: 400px;
+    max-width: 400px;
+}
+.search-box form {
+    margin: 0 16px;
+    border: 2px solid #000;
+    display: flex;
+}
+
+.search-box form input[type='search'] {
+    width: 100%;
+    border: none;
+    padding: 8px 12px;
+    font-size: 16px;
+    outline: none;
+}
+
+.search-box button[type='submit']{
+    width: 100px;
+    cursor: pointer;
+    outline: none;
+    padding: 7px 20px 7px 42px;
+}
+
+.search-box button[type='submit']:hover {
+    border: 2px solid #fff;
+    transition: 0.3s ease-out;
+}
+
+button, input[type=submit], .button {
+    -webkit-appearance: none;
+    display: inline-block;
+    background: #e6e1d6;
+    color: black;
+    border: 3px solid #e6e1d6;
+    height: auto;
+    padding: 0.6em 3em;
+    letter-spacing: 1px;
+    vertical-align: top;
+}
+
+.cart img {
+    width: 26px;
+}
+
+.main-section__content {
+    background-image: url(./img/main-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.shop-now-btn {
+    padding: 11px 45px;
+    background-color: #E6E1D6;
+    position: absolute;
+    border: 1px solid #E6E1D6;
+    bottom: 30px;
+    left: 30px;
+    cursor: pointer;
+}
+
+.shop-now-btn:hover {
+    background-color: #e6e1d6a2;
+    border: 2px solid #fff;
+    transition: 0.3s ease-out;
+}
+
+.shop-now-btn a {
+    letter-spacing: 1px;
+    line-height: 20px;
+    text-decoration: none;
+    color: #000;
+}
