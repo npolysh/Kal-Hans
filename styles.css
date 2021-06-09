@@ -247,3 +247,62 @@ button, input[type=submit], .button {
 .products-list .product-item__description-review {
     font-size: 11px;
 }
+
+.free-from-container{
+    height: auto;
+    width: 100%;
+    background-color: #CFACAD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.free-from-img {
+    width: 50%;
+    height: 1080px;
+    background-image: url(./img/Free-from-section.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.free-from-list-block {
+    background-color: #CFACAD;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.free-from-list-block h3{
+    font-weight: 700;
+    padding-bottom: 43px;
+    color: #fff;
+}
+
+.free-from-list {
+    padding-bottom: 43px;
+}
+
+.free-from-list-item {
+    list-style-type: none;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.free-from-btn {
+    padding: 11px 45px;
+    border: 3px solid #fff;
+    background-color: #CFACAD;
+    cursor: pointer;
+}
+
+.free-from-btn:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: 0.3s ease-out;
+}
+
