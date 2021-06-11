@@ -551,3 +551,47 @@ button, input[type=submit], .button {
     background-position: center;
     height: 1080px;
 }
+
+.newsletter-subscription-section {
+    background-color: #CFACAD;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0;
+}
+
+.newsletter-subscription-section h4, .newsletter-subscription-section p {
+    color: #fff;
+    margin-bottom: 13px;
+}
+
+.subscribe-form-block {
+    max-width: 470px;
+}
+
+.subscribe-form-block form {
+    background-color: #fff;
+    border: 1px solid #BFBFBF;
+}
+
+.newsletter-subscription-section input[type='text'] {
+    width: 300px;
+    height: 44px;
+    border: none;
+}
+
+.newsletter-subscription-section input[type='button'] {
+    width: 160px;
+    height: 44px;
+    background-color: #E6E1D6;
+    border: none;
+    cursor: pointer;
+}
+
+.newsletter-subscription-section input[type='button']:hover {
+    background-color: rgba(207, 172, 173, 0.5);
+    border: 2px solid rgb(207, 172, 173);
+    transition: 0.3s ease-out;
+}
+
