@@ -102,6 +102,10 @@ header {
     width: 200px;
 }
 
+.search-mobile {
+    display: none;
+}
+
 .search-box {
     position: absolute;
     top: 30px;
@@ -810,4 +814,50 @@ footer{
     width: 48px;
     height:auto;
     margin-right: 14px;
+}
+
+@media (max-width: 480px) {
+
+    h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .search-box {
+        display: none;
+    }
+
+    .navigation {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+    }
+
+    .search-mobile {
+        display: block;
+    }
+
+    .logo img {
+        width: 120px;
+    }
+
+    .search-mobile button {
+        width: 30px;
+        height: 30px;
+        padding: 0;
+    }
+
+    .search-mobile button img {
+        width: 100%;
+    }
+
+    .shop-now-btn {
+        padding: 11px 30px;
+    }
+
+    .description-section {
+        padding: 100px 50px 100px;
+    }
 }
