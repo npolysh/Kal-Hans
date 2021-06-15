@@ -68,7 +68,7 @@
             <div class="products-list">
                 <div class="product-item">
                     <div class="product-item__img">
-                        <img src="./img/products/product-1.png" alt="Hydrating Rose Petal Face Mist">
+                        <img src="./img/products/product-1.png" alt="Hydrating Rose Petal Face Mist">\
                     </div>
                     <p class="product-item__description">
                         <span class="product-item__description-name">Hydrating Rose Petal Face Mist</span><br>
@@ -98,7 +98,7 @@
                 </div>
                 <div class="product-item">
                     <div class="product-item__img">
-                        <img src="./img/products/product-4.png" alt="Aloe Cucumber Mist">
+                        <img src="./img/products/product-4.jpg" alt="Aloe Cucumber Mist">
                     </div>
                     <p class="product-item__description">
                         <span class="product-item__description-name">Aloe Cucumber Mist</span><br>
@@ -108,7 +108,7 @@
                 </div>
                 <div class="product-item">
                     <div class="product-item__img">
-                        <img src="./img/products/product-5.png" alt="Skin Brightening Under Eye Cream">
+                        <img src="./img/products/product-5.jpg" alt="Skin Brightening Under Eye Cream">
                     </div>
                     <p class="product-item__description">
                         <span class="product-item__description-name">Skin Brightening Under Eye Cream</span><br>
@@ -118,7 +118,7 @@
                 </div>
                 <div class="product-item">
                     <div class="product-item__img">
-                        <img src="./img/products/product-6.png" alt="Daily Moisture Sun Protection Lotion">
+                        <img src="./img/products/product-6.jpg" alt="Daily Moisture Sun Protection Lotion">
                     </div>
                     <p class="product-item__description">
                         <span class="product-item__description-name">Daily Moisture Sun Protection Lotion</span><br>
@@ -207,9 +207,9 @@
                         This lightweight adaptogenic blend with Licorice & Ashwagandha root help lighten stubborn dark circles whilst calming the area from stress related damage and wrinkles.
                     </p>
                     <div class="count-block">
-                        <button id="decrease" class="decrease">-</button>
-                        <div id="count-result" class="count-result">1</div>
-                        <button id="increase" class="increase">+</button>
+                        <button id="decrease" class="decrease" type="button" onclick="this.nextElementSibling.stepDown(); this.nextElementSibling.onchange();">-</button>
+                        <input type="number" id="count-result" class="count-result" min="1" value="1" readonly>
+                        <button id="increase" class="increase" type="button" onclick="this.previousElementSibling.stepUp(); this.previousElementSibling.onchange();">+</button>
                     </div>
                     <button class="add-to-cart-btn" id="add-to-cart-btn">Add to cart</button>
                     <a href="#" class="buy-it-now-btn">Buy it now</a>

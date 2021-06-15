@@ -457,15 +457,33 @@ button, input[type=submit], .button {
     margin-bottom: 20px;
 }
 
+.count-block input[type="number"]::-webkit-outer-spin-button,
+.count-block input[type="number"]::-webkit-inner-spin-button {
+	display: none;
+}
+
+.count-block input[type="number"]:focus-visible{
+    outline: none;
+}
+
 .decrease, .increase {
     background-color: #fff;
     border: 0;
-    width: 30px;
     padding: 15px 20px;
+    cursor: pointer;
+}
+
+.decrease:hover,
+.increase:hover{
+    background-color: rgba(184, 137, 135, 0.4);
+    transition: 0.3s ease-out;
 }
 
 .count-result{
     width: 40px;
+    border: none;
+    text-align: center;
+    cursor: default;
 }
 
 .add-to-cart-btn {
