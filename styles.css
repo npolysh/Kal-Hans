@@ -108,6 +108,10 @@ header {
     display: none;
 }
 
+.cart-mobile {
+    display: none;
+}
+
 .search-box {
     position: absolute;
     top: 50%;
@@ -938,14 +942,14 @@ footer{
     margin-right: 14px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
 
     h1 {
         font-size: 30px;
         line-height: 40px;
     }
 
-    .search-box {
+    .search-box, .cart {
         display: none;
     }
 
@@ -957,12 +961,20 @@ footer{
         padding: 10px;
     }
 
-    .search-mobile {
+    .cart-mobile {
         display: block;
     }
 
+    .cart-mobile img {
+        width: 26px;
+    }
+
+    .cart-mobile, .menu {
+        width: 30px;
+    }
+
     .logo img {
-        width: 120px;
+        width: 140px;
     }
 
     .search-mobile button {
