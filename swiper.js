@@ -8,15 +8,23 @@ const swiper = new Swiper('.swiper-container', {
         el: '.swiper-scrollbar',
     },
     breakpoints: {
-        // when window width is >= 320px
         320: {
           slidesPerView: 1.5,
           spaceBetween: 20
         },
-        // when window width is >= 640px
         600: {
-          slidesPerView: 3,
+          slidesPerView: 2,
           spaceBetween: 40
+        },
+        768: {
+            slidesPerView: 2.5,
+            spaceBetween: 40
+          },
+        1024: {
+            slidesPerView: 3.5,
+        },
+        1440: {
+            slidesPerView: 4.5,
         }
       }
   });

@@ -945,7 +945,7 @@ footer{
     margin-right: 14px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
 
     h1 {
         font-size: 30px;
@@ -1043,8 +1043,12 @@ footer{
         display: none;
     }
 
+    .buy-product-section {
+        margin-bottom: 80px;
+    }
+
     .product-description-container {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
     .product-description-block, .product-img-block {
