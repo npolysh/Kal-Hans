@@ -1112,6 +1112,10 @@ footer{
         padding: 14px 15px;
     }
 
+    .our-story-block {
+        margin-bottom: 50px;
+    }
+
     .our-story-container {
         flex-direction: column;
     }
@@ -1123,6 +1127,19 @@ footer{
 
     .our-story-wrapper p {
         width: 90%;
+    }
+
+    .blog-section .container {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .blog-post {
+        margin-bottom: 50px;
+    }
+
+    .blog-post-img {
+        width: 100%;
     }
 }
 
