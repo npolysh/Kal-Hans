@@ -986,7 +986,7 @@ footer{
     }
 
     .logo img {
-        width: 14   0px;
+        width: 140px;
     }
 
     .search-mobile button {
@@ -1168,5 +1168,110 @@ footer{
 @media (max-width: 380px) {
     .products-list .product-item__img {
         height: 220px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    h2 {
+        font-size: 28px;
+    }
+    
+    .search-box, .cart {
+        display: none;
+    }
+
+    .navigation {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+    }
+
+    .cart-mobile {
+        display: block;
+    }
+
+    .cart-mobile img {
+        width: 26px;
+    }
+
+    .cart-mobile, .menu {
+        width: 30px;
+    }
+
+    .logo img {
+        width: 140px;
+    }
+
+    .search-mobile button {
+        width: 30px;
+        height: 30px;
+        padding: 0;
+    }
+
+    .search-mobile button img {
+        width: 100%;
+    }
+
+    .products-list .product-item {
+        width: 50%;
+    }
+
+    .free-from-img {
+        height: 760px;
+    }
+
+    .product-description-block h2{
+        font-size: 28px;
+    }
+
+    .product-description-block .description {
+        font-size: 16px;
+        width: 90%;
+    }
+    .get-glowing-text-block p {
+        width: 90%;
+        font-size: 16px;
+    }
+
+    .get-glowing-img-block {
+        height: 760px;
+    }
+
+    .our-story-block p{
+        width: 90%;
+        font-size: 16px;
+    }
+
+    .blog-section .container {
+        flex-wrap: wrap;
+        width: 90%;
+        justify-content: space-between;
+    }
+
+    .blog-post {
+        margin-bottom: 50px;
+        width: 45%;
+    }
+
+    .blog-post-img {
+        width: 100%;
+    }
+    .footer-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-link {
+        margin-bottom: 20px;
+    }
+
+    .payments {
+        flex-wrap: wrap;
+    }
+
+    .payment-img {
+        margin-bottom: 10px;
     }
 }
