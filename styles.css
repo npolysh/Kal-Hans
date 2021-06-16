@@ -117,8 +117,7 @@ header {
     top: 50%;
     right: 100px;
     transform: translateY(-50%);
-    min-width: 400px;
-    max-width: 400px;
+    width: 400px;
 }
 .search-box form {
     margin: 0 16px;
@@ -670,6 +669,7 @@ button, input[type=submit], .button {
     line-height: 21px;
     margin-bottom: 42px;
     text-align: center;
+    width: 90%;
 }
 
 .get-glowing-btn {
@@ -777,6 +777,7 @@ button, input[type=submit], .button {
 }
 
 .our-story-block p {
+    width: 90%;
     font-size: 14px;
     line-height: 21px;
     margin-bottom: 42px;
@@ -1231,7 +1232,6 @@ footer{
         width: 90%;
     }
     .get-glowing-text-block p {
-        width: 90%;
         font-size: 16px;
     }
 
@@ -1240,7 +1240,6 @@ footer{
     }
 
     .our-story-block p{
-        width: 90%;
         font-size: 16px;
     }
 
@@ -1273,5 +1272,41 @@ footer{
 
     .payment-img {
         margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .post-text::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+@media (min-width: 1025px) and (max-width:1440px) {
+    .search-box {
+        width: 280px;
+    }
+
+    .search-box button[type='submit'] {
+        width: 60px;
+        padding: 7px 7px 7px 20px;
+    }
+
+    .blog-section .container{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .blog-post{
+        max-width: 400px;
+        width: 45%;
+        margin-bottom: 40px;
+    }
+
+    .blog-post-img {
+        width: 100%;
+    }
+
+    footer .container {
+        padding: 0 30px;
     }
 }
