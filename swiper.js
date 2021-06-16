@@ -4,14 +4,19 @@ const swiper = new Swiper('.swiper-container', {
     spaceBetween: 20,
     loop: true,
     freeMode: true,
-
-    // autoplay: {
-    //     delay: 2500,
-    //     disableOnInteraction: false,
-    // },
-  
     scrollbar: {
         el: '.swiper-scrollbar',
     },
-    // mousewheel: true,
+    breakpoints: {
+        // when window width is >= 320px
+        320: {
+          slidesPerView: 1.5,
+          spaceBetween: 20
+        },
+        // when window width is >= 640px
+        600: {
+          slidesPerView: 3,
+          spaceBetween: 40
+        }
+      }
   });

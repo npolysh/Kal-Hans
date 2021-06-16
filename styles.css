@@ -949,6 +949,12 @@ footer{
         line-height: 40px;
     }
 
+    h3 {
+        margin-bottom: 0;
+        font-size: 24px;
+        line-height: 0;
+    }
+
     .search-box, .cart {
         display: none;
     }
@@ -1007,6 +1013,20 @@ footer{
 
     .products-list .product-item {
         width: 100%;
+    }
+
+    .free-from-container {
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .free-from-list-block, .free-from-img {
+        width: 100%;
+        height: 500px
+    }
+
+    .post-text::-webkit-scrollbar {
+        display: none;
     }
 }
 
