@@ -974,7 +974,7 @@ footer{
     }
 
     .logo img {
-        width: 140px;
+        width: 14   0px;
     }
 
     .search-mobile button {
@@ -993,5 +993,25 @@ footer{
 
     .description-section {
         padding: 100px 50px 100px;
+    }
+
+    .products-section .container {
+        width: 95%;
+        max-width: 590px;
+    }
+
+    .products-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .products-list .product-item {
+        width: 100%;
+    }
+}
+
+@media (max-width: 380px) {
+    .products-list .product-item__img {
+        height: 220px;
     }
 }
