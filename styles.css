@@ -1131,6 +1131,7 @@ footer{
 
     .blog-section .container {
         flex-direction: column;
+        align-items: center;
         width: 90%;
     }
 
@@ -1140,6 +1141,23 @@ footer{
 
     .blog-post-img {
         width: 100%;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-link {
+        margin-bottom: 20px;
+    }
+
+    .payments {
+        flex-wrap: wrap;
+    }
+
+    .payment-img {
+        margin-bottom: 10px;
     }
 }
 
