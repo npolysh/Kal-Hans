@@ -1310,3 +1310,11 @@ footer{
         padding: 0 30px;
     }
 }
+
+@media (max-width: 600px) {
+    .shop-now-btn {
+        width: 285px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
